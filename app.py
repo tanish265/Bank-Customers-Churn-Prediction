@@ -4,7 +4,8 @@ import numpy as np
 #import pickle
 import joblib
 import streamlit as st 
-
+import xgboost
+from xgboost import XGBClassifier
 #pickle_in = open("churnXGB.pkl","rb")
 #classifier=pickle.load(pickle_in)
 
